@@ -471,7 +471,7 @@ export default function App() {
                 type="button"
                 onClick={startSpin}
                 disabled={!canSpin}
-                className="font-dot flex min-h-[64px] flex-1 items-center justify-center bg-[#facc15] px-6 py-3.5 text-lg font-bold tracking-widest text-[#0c0c0e] transition-all duration-100 hover:bg-[#fde047] active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-[#2a2a2c] disabled:text-[#ececec]/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#facc15] whitespace-nowrap sm:max-w-[260px]"
+                className="font-dot flex min-h-[64px] flex-1 items-center justify-center bg-[#D93829] px-6 py-3.5 text-lg font-bold tracking-widest text-white transition-all duration-100 hover:bg-[#C22F21] active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-[#2a2a2c] disabled:text-[#ececec]/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#D93829] whitespace-nowrap sm:max-w-[260px]"
               >
                 {isSpinning ? '메뉴 고르는 중…' : '점심 정하기'}
               </button>
